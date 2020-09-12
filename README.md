@@ -93,6 +93,6 @@ Written in Node.js
 
  3. Once you've written all, hit ENTER and watch as the GUI starts and the bot connects to the server.
 
-#### Known Bugs
+### Known Bugs
 
  -The bot sends messages when someone joins, so when a server uses the Citizens2 plugin, the bot thinks the npc's are real players and spams the console.
