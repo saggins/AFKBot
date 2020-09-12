@@ -9,11 +9,11 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
  * An easy-to-use GUI with incorporated chat thanks to [mineflayer-dashboard](https://github.com/wvffle/mineflayer-dashboard).
  * Windows Desktop Notifications for events like /tell or on death. These can be disabled when starting the bot.
  * Automatic response (whispered) like "Sorry, I am an AFK Bot", to people who "/tell" you.
- * Pathfinding ability to make your AFK bot follow you from one place to another, thanks to [mineflayer-navigate](https://github.com/Karang/mineflayer-pathfinder)
+ * Pathfinding ability to make your AFK bot follow you from one place to another, thanks to [mineflayer-navigate](https://github.com/Karang/mineflayer-pathfinder).
  * Reconnect ability in case it's kicked form the server.
  * Online/Cracked mode support.
  * Looks at nearby entities simulating real players.
- * Alerts on low health
+ * Alerts on low health.
  * Shows who attacked the bot and the weapon.
 
 ## Install
@@ -55,10 +55,12 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
  1. The bot is configured to only reply to "/tell" messages. It will reply with "Sorry, I am an AFK Bot".
  2. The bot will only follow you if tell him to do so:
 	
-	/tell [botname] follow me
+	*/tell [botname] follow me*
+
 	Will make the bot follow you.
 
-	/tell [botname] stop
+	*/tell [botname] stop*
+
 	Will make the bot stop following you.
 
  3. The bot will start the anti-AFK-kick sequence when connected automatically, it will jump every 10 minutes to prevent kicks.
