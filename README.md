@@ -66,14 +66,6 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 
 	Example:
 	
-	````node AFK.js localhost 25565 yes ImTheOwner
+	```node AFK.js localhost 25565 yes ImTheOwner```
 
  3. Once you've written all, hit ENTER and watch as the GUI starts and the bot connects to the server.
-
-
-
-
-
-
-
-
