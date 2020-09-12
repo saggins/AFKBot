@@ -31,11 +31,22 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 	`npm install mineflayer-dashboard`
 
     and keep repeating the process until all the Plug-ins are installed:
+	
+	mineflayer-pathfinder to make the bot follow you:
 
-	`npm install mineflayer-pathfinder`
-	`npm install mineflayer-mineflayer-dashboard`
-	`npm install mineflayer-bloodhound`
-	`npm isntall node-notifier`
+		`npm install mineflayer-pathfinder`
+	
+	mineflayer-dashboard to create the GUI:
+
+		`npm install mineflayer-dashboard`
+
+	mineflayer-bloodhound to know who attacked you and with what:
+
+		`npm install mineflayer-bloodhound`
+
+	node-notifier to create Windows Desktop Notifications:
+
+		`npm isntall node-notifier`
 
  6. Now that all the things have been installed, the bot is ready to run and go AFK.
 
@@ -57,12 +68,17 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
  1. Repeat number 4 from "Install"; navigate to the folder where the files are located.
  2. There are 4 arguments that are needed, and other 2 that are optional:
 
-	<host> : This is the IP or the subdomain of the server.
-	<port> : This is the port of the server.
-	<windows desktop notifications> : You need to choose between "yes" or "no" depending if you want or not Windows Desktop Notifications.
-	<owner> : You need to fill this with the username of the player who wants to control the bot, so that the bot doesn't accidentally respond with actions if other players /tell him to do them.
-	[username/gmail] : You need to type a username for the bot, write the e-mail in case the account is premium, default is "AFKBot".
-	[password] : Ignore if the account is cracked, only for premium accounts.
+	"host" : This is the IP or the subdomain of the server.
+
+	"port" : This is the port of the server.
+
+	"windows desktop notifications" : You need to choose between "yes" or "no" depending if you want or not Windows Desktop Notifications.
+
+	"owner" : You need to fill this with the username of the player who wants to control the bot, so that the bot doesn't accidentally respond with actions if other players /tell him to do them.
+
+	"username/gmail" : You need to type a username for the bot, write the e-mail in case the account is premium, default is "AFKBot".
+
+	"password" : Ignore if the account is cracked, only for premium accounts.
 
 	Example:
 	
