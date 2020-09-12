@@ -1,6 +1,8 @@
 # AFKBot
 A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https://github.com/PrismarineJS/mineflayer). Mainly for Windows, not tested on other OS.
 
+Written in Node.js
+
 <img alt="logo" src="https://github.com/MrMoraschi/AFKBot/raw/master/images/logo.png" height="200" />
 
 ## Features
@@ -18,6 +20,7 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 
 ## Install
 
+ 1. Make sure you have installed Node on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
  1. Create a folder somewhere in you PC.
  2. Extract the downloaded .zip in the folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
@@ -88,6 +91,6 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 
  3. Once you've written all, hit ENTER and watch as the GUI starts and the bot connects to the server.
 
-### Known Bugs
+#### Known Bugs
 
  -The bot sends messages when someone joins, so when a server uses the Citizens2 plugin, the bot thinks the npc's are real players and spams the console.
