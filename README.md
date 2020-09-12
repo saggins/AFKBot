@@ -19,7 +19,7 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 ## Install
 
  1. Create a folder somewhere in you PC.
- 2. Extract the downloadede .zip in the folder.
+ 2. Extract the downloaded .zip in the folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
  4. Navigate to the folder where you put the files (Example: type "cd C:\Users\MrMoraschi\Desktop\BotFolder" and hit ENTER).
  5. Now where are going to install Mineflayer and the other Plug-ins, type:
