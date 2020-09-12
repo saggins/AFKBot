@@ -87,3 +87,7 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 	```node AFK.js localhost 25565 yes ImTheOwner mygmailcool@gmail.com mypasswordis1234```
 
  3. Once you've written all, hit ENTER and watch as the GUI starts and the bot connects to the server.
+
+### Known Bugs
+
+ -The bot sends messages when someone joins, so when a server uses the Citizens2 plugin, the bot thinks the npc's are real players and spams the console.
