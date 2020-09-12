@@ -3,6 +3,8 @@ A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https:
 
 Written in Node.js
 
+[Link](https://mrmoraschi.github.io/AFKBot/) to the page of this project.
+
 <img alt="logo" src="https://github.com/MrMoraschi/AFKBot/raw/master/images/logo.png" height="200" />
 
 ## Features
