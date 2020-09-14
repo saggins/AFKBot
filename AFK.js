@@ -16,7 +16,9 @@ if (process.argv.length < 6 || process.argv.length > 8) {
   console.log('')
   console.log('               \x1b[31mRed\x1b[0m: Needed, \x1b[32mGreen\x1b[0m: Optional')
   console.log('')
-  console.log('               \x1b[36mExample: node AFK.js localhost 25565\x1b[0m \x1b[4m(this makes a cracked account bot that connects to localhost)\x1b[0m')
+  console.log('               \x1b[36mExample: node AFK.js localhost 25565 no MrMoraschi\x1b[0m (this makes a cracked account bot')
+  console.log('                                                                   that connects to localhost and does\x1b[0m')
+  console.log('                                                                   not send you desktop notifications)\x1b[0m')
   process.exit(1)
 }
 
@@ -153,18 +155,6 @@ function startBot() {
     setTimeout(function() {
     bot.dashboard.log(`\x1b[36m<WORLD> \x1b[36mCurrent time: `+bot.time.timeOfDay,'\x1b[0m')
   }, 1000)})
-
-  bot.on('playerJoined', (player) => {
-    setTimeout(function() {
-    if (player.username !== bot.username) {
-      bot.dashboard.log(`\x1b[36m<WORLD>\x1b[0m \x1b[32m${player.username} joined`,`\x1b[0m`)
-    }
-  }, 3000)})
-
-  bot.on('playerLeft', (player) => {
-    if (player.username === bot.username) return
-    bot.dashboard.log(`\x1b[36m<WORLD>\x1b[0m \x1b[32m${player.username} left`,`\x1b[0m`)
-  })
 
 
 
