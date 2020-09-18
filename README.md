@@ -7,8 +7,6 @@ Written in Node.js
 
 <img alt="logo" src="https://github.com/MrMoraschi/AFKBot/raw/master/logo.png" height="200" />
 
-[![Stargazers over time](https://starchart.cc/MrMoraschi/AFKBot.svg)](https://starchart.cc/MrMoraschi/AFKBot)
-
 ## Features
 
  * Supports 1.16.1 and newer versions.
