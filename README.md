@@ -6,7 +6,6 @@ Written in Node.js
 [Link](https://mrmoraschi.github.io/AFKBot/) to the page of this project.
 
 <img alt="logo" src="https://github.com/MrMoraschi/AFKBot/raw/master/logo.png" height="200" />
-
 ## Features
 
  * Supports 1.16.1 and newer versions.
