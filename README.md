@@ -22,34 +22,34 @@ Written in Node.js
 
 ## Install
 
- 1. Make sure you have installed *Node* on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
+ 1. Make sure you have installed **Node** on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
  1. Create a folder somewhere in you PC.
  2. Extract the downloaded .zip in the folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
  4. Navigate to the folder where you put the files (Example: type "cd C:\Users\DrMoraschi\Desktop\BotFolder" and hit ENTER).
- 5. Now where are going to install *Mineflayer* and the other Plug-ins, type:
+ 5. Now where are going to install **Mineflayer** and the other Plug-ins, type:
 	
 	`npm install mineflayer`
     
-    this will install *Mineflayer*, when finished installing, type:
+    this will install **Mineflayer**, when finished installing, type:
 
 	`npm install mineflayer-dashboard`
 
     and keep repeating the process until all the Plug-ins are installed:
 	
-    *mineflayer-pathfinder* to make the bot follow you:
+    **mineflayer-pathfinder** to make the bot follow you:
 
 	`npm install mineflayer-pathfinder`
 	
-    *mineflayer-dashboard* to create the GUI:
+    **mineflayer-dashboard** to create the GUI:
 
 	`npm install mineflayer-dashboard`
 
-    *mineflayer-bloodhound* to know who attacked you and with what:
+    **mineflayer-bloodhound** to know who attacked you and with what:
 
 	`npm install mineflayer-bloodhound`
 
-    *node-notifier* to create Windows Desktop Notifications:
+    **node-notifier** to create Windows Desktop Notifications:
 
 	`npm isntall node-notifier`
 
