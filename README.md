@@ -1,19 +1,19 @@
 # AFKBot
-A bot for Minecraft to stay AFK written in node.js thanks to [mineflayer](https://github.com/PrismarineJS/mineflayer). Mainly for Windows, not tested on other OS.
+A bot for Minecraft to stay AFK thanks to [mineflayer](https://github.com/PrismarineJS/mineflayer). Mainly for Windows, not tested on other OS.
 
 Written in Node.js
 
-[Link](https://mrmoraschi.github.io/AFKBot/) to the page of this project.
+[Link](https://drmoraschi.github.io/AFKBot/) to the page of this project.
 
-<img alt="logo" src="https://github.com/MrMoraschi/AFKBot/raw/master/logo.png" height="200" />
+<img alt="logo" src="https://github.com/DrMoraschi/AFKBot/raw/master/logo.png" height="200" />
 
 ## Features
 
- * Supports 1.16.1 and newer versions.
+ * Supports 1.16.1.
  * An easy-to-use GUI with incorporated chat thanks to [mineflayer-dashboard](https://github.com/wvffle/mineflayer-dashboard).
  * Windows Desktop Notifications for events like /tell or on death. These can be disabled when starting the bot.
  * Automatic response (whispered) like "Sorry, I am an AFK Bot", to people who "/tell" you.
- * Pathfinding ability to make your AFK bot follow you from one place to another, thanks to [mineflayer-navigate](https://github.com/Karang/mineflayer-pathfinder).
+ * Pathfinding ability to make your AFK bot follow you from one place to another, thanks to [mineflayer-pathfinder](https://github.com/Karang/mineflayer-pathfinder).
  * Reconnect ability in case it's kicked form the server.
  * Online/Cracked mode support.
  * Looks at nearby entities simulating real players.
@@ -22,36 +22,36 @@ Written in Node.js
 
 ## Install
 
- 1. Make sure you have installed Node on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
+ 1. Make sure you have installed *Node* on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
  1. Create a folder somewhere in you PC.
  2. Extract the downloaded .zip in the folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
- 4. Navigate to the folder where you put the files (Example: type "cd C:\Users\MrMoraschi\Desktop\BotFolder" and hit ENTER).
- 5. Now where are going to install Mineflayer and the other Plug-ins, type:
+ 4. Navigate to the folder where you put the files (Example: type "cd C:\Users\DrMoraschi\Desktop\BotFolder" and hit ENTER).
+ 5. Now where are going to install *Mineflayer* and the other Plug-ins, type:
 	
 	`npm install mineflayer`
     
-    this will install Mineflayer, when finished installing, type:
+    this will install *Mineflayer*, when finished installing, type:
 
 	`npm install mineflayer-dashboard`
 
     and keep repeating the process until all the Plug-ins are installed:
 	
-	mineflayer-pathfinder to make the bot follow you:
+    *mineflayer-pathfinder* to make the bot follow you:
 
-		`npm install mineflayer-pathfinder`
+	`npm install mineflayer-pathfinder`
 	
-	mineflayer-dashboard to create the GUI:
+    *mineflayer-dashboard* to create the GUI:
 
-		`npm install mineflayer-dashboard`
+	`npm install mineflayer-dashboard`
 
-	mineflayer-bloodhound to know who attacked you and with what:
+    *mineflayer-bloodhound* to know who attacked you and with what:
 
-		`npm install mineflayer-bloodhound`
+	`npm install mineflayer-bloodhound`
 
-	node-notifier to create Windows Desktop Notifications:
+    *node-notifier* to create Windows Desktop Notifications:
 
-		`npm isntall node-notifier`
+	`npm isntall node-notifier`
 
  6. Now that all the things have been installed, the bot is ready to run and go AFK.
 

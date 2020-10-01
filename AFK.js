@@ -11,7 +11,7 @@ if (process.argv.length < 6 || process.argv.length > 8) {
   console.log('               \x1b[31m<port>\x1b[0m')
   console.log('               \x1b[31m<choose from yes/no if you want or not Windows notifications for commands like /tell or events>\x1b[0m')
   console.log('               \x1b[31m<username of the owner of the bot, so the bot replies only to him>\x1b[0m')
-  console.log('               \x1b[32m[<name, gmail in case the account is premium>]\x1b[0m')
+  console.log('               \x1b[32m[<name, email in case the account is premium>]\x1b[0m')
   console.log('               \x1b[32m[<password, ignore in case the account is cracked>]\x1b[0m')
   console.log('')
   console.log('               \x1b[31mRed\x1b[0m: Needed, \x1b[32mGreen\x1b[0m: Optional')
@@ -71,9 +71,12 @@ function startBot() {
       }} else if (message === 'stop') {
           null
       } else {
-          if (message !== 'follow me' && message !== 'stop')
-            bot.whisper(username, 'Sorry, I am an AFK Bot')
-            bot.dashboard.log('\x1b[32m<STATUS> Correctly whispered that I am a bot','\x1b[0m')
+          if (message !== 'follow me' && message !== 'stop') {
+            if (username !== bot.username) {
+                bot.whisper(username, 'Sorry, I am an AFK Bot')
+                bot.dashboard.log('\x1b[32m<STATUS> Correctly whispered that I am a bot','\x1b[0m')
+              }
+          }
       }
           if (incomingnotification === 'yes') {
             if (username !== bot.username) {
