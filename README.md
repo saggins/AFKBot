@@ -11,14 +11,14 @@ Written in Node.js
 
  * Supports 1.16.1.
  * An easy-to-use GUI with incorporated chat thanks to [mineflayer-dashboard](https://github.com/wvffle/mineflayer-dashboard).
- * Windows Desktop Notifications for events like /tell or on death. These can be disabled when starting the bot.
+ * Windows Desktop Notifications for events like /tell or on death. These can be disabled when starting the bot. Thanks to [node-notifier](https://github.com/mikaelbr/node-notifier).
  * Automatic response (whispered) like "Sorry, I am an AFK Bot", to people who "/tell" you.
  * Pathfinding ability to make your AFK bot follow you from one place to another, thanks to [mineflayer-pathfinder](https://github.com/Karang/mineflayer-pathfinder).
  * Reconnect ability in case it's kicked form the server.
  * Online/Cracked mode support.
  * Looks at nearby entities simulating real players.
  * Alerts on low health.
- * Shows who attacked the bot and the weapon.
+ * Shows who attacked the bot and the weapon. Thanks to [mineflayer-bloodhound](https://github.com/Nixes/mineflayer-bloodhound).
 
 ## Install
 
@@ -27,31 +27,11 @@ Written in Node.js
  2. Extract the downloaded .zip in the folder, there should be a folder named AFKBot-master, take the files and paste them where you want, like a folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
  4. Navigate to the folder where you put the files (Example: type "cd C:\Users\DrMoraschi\Desktop\BotFolder" and hit ENTER).
- 5. Now where are going to install **Mineflayer** and the other Plug-ins, type:
+ 5. Now where are going to install **Mineflayer** and the other dependencies, type:
 	
-	`npm install mineflayer`
+	`npm install`
     
-    this will install **Mineflayer**, when finished installing, type:
-
-	`npm install mineflayer-dashboard`
-
-    and keep repeating the process until all the Plug-ins are installed:
-	
-    **mineflayer-pathfinder** to make the bot follow you:
-
-	`npm install mineflayer-pathfinder`
-	
-    **mineflayer-dashboard** to create the GUI:
-
-	`npm install mineflayer-dashboard`
-
-    **mineflayer-bloodhound** to know who attacked you and with what:
-
-	`npm install mineflayer-bloodhound`
-
-    **node-notifier** to create Windows Desktop Notifications:
-
-	`npm isntall node-notifier`
+    this will install all dependencies that are necessary.
 
  6. Now that all the things have been installed, the bot is ready to run and go AFK.
 
