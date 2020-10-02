@@ -24,7 +24,7 @@ Written in Node.js
 
  1. Make sure you have installed **Node** on your PC, once you have installed it, you can proceed to the next step. You can download Node [here](https://nodejs.org/).
  1. Create a folder somewhere in you PC.
- 2. Extract the downloaded .zip in the folder.
+ 2. Extract the downloaded .zip in the folder, there should be a folder named AFKBot-master, take the files and paste them where you want, like a folder.
  3. Now, open the command prompt (press WIN + R, it should open a window, type in "cmd" and hit ENTER).
  4. Navigate to the folder where you put the files (Example: type "cd C:\Users\DrMoraschi\Desktop\BotFolder" and hit ENTER).
  5. Now where are going to install **Mineflayer** and the other Plug-ins, type:
