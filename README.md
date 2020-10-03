@@ -52,7 +52,7 @@ Written in Node.js
  
 ## How to Use
 
- 1. Repeat number 4 from "Install"; navigate to the folder where the files are located.
+ 1. In your Command Line, repeat number 4 from "Install"; navigate to the folder where the files are located.
  2. There are 4 arguments that are needed, and other 2 that are optional:
 
 	"host" : This is the IP or the subdomain of the server.
