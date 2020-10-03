@@ -72,3 +72,9 @@ Written in Node.js
 	```node AFK.js localhost 25565 yes ImTheOwner mygmailcool@gmail.com mypasswordis1234```
 
  3. Once you've written all, hit ENTER and watch as the GUI starts and the bot connects to the server.
+
+ ### WARNING
+ 
+  I am not responsible of any consequences that this bot may cause, when you are downloading it, it's up to you and to be responsible of your own actions.
+  
+  Thank you.
