@@ -16,7 +16,7 @@ if (process.argv.length < 6 || process.argv.length > 8) {
   console.log('')
   console.log('               \x1b[31mRed\x1b[0m: Needed, \x1b[32mGreen\x1b[0m: Optional')
   console.log('')
-  console.log('               \x1b[36mExample: node AFK.js localhost 25565 no MrMoraschi\x1b[0m (this makes a cracked account bot')
+  console.log('               \x1b[36mExample: node AFK.js localhost 25565 no DrMoraschi\x1b[0m (this makes a cracked account bot')
   console.log('                                                                   that connects to localhost and does\x1b[0m')
   console.log('                                                                   not send you desktop notifications)\x1b[0m')
   process.exit(1)
