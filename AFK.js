@@ -86,7 +86,7 @@ function startBot() {
                     notifier.notify({
                       title: 'Whisper Message',
                       message: ('You have a new message'),
-                      icon: 'logo.png'
+                      icon: 'projectlogo.jpg'
                     })
                   }
                 }
@@ -105,7 +105,7 @@ function startBot() {
       notifier.notify({
         title: 'Event Message',
         message: ('I got kicked!'),
-        icon: 'logo.png'
+        icon: 'projectlogo.jpg'
       })
       }
   })
@@ -124,7 +124,7 @@ function startBot() {
           notifier.notify({
             title: 'Event Message',
             message: ('I died!'),
-            icon: 'logo.png'
+            icon: 'projectlogo.jpg'
           })
           }
         }
